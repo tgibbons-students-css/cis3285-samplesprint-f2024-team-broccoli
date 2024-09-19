@@ -8,6 +8,7 @@
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
+            // This a the comment for the User Story 2A branch - Jonny Saldin
         }
 
         public int RoomID
@@ -20,6 +21,7 @@
         {
             get;
             private set;
+            // This is a comment for the User Story 2A branch - Jonny Saldin
         }
 
         public string AuthorName

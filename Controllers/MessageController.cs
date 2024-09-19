@@ -15,7 +15,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         public ActionResult Details(int id)
         {
         // I'm updating this controller for user story 1B
-        // I'm going to update this for the second part of 1B as well
+        // I'm going to update this for the second part of 1B as well!
             return View();
         }
 

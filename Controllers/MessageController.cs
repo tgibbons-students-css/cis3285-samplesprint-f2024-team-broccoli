@@ -25,7 +25,6 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // I'm updating this controller for user story 1B
             //I'm updating this for the second part of 1B as well
-            // I'm going to filter this code in accordance with user story 2B
             return View();
         }
 
@@ -34,6 +33,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            // Changes Sprint 2C -- As a system administrator, I want to serve hundreds of users concurrently -- Grace Hrabik
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -47,6 +47,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Edit/5
         public ActionResult Edit(int id)
         {
+            // Changes Sprint 2C -- As a system administrator, I want to serve hundreds of users concurrently -- Grace Hrabik
             return View();
         }
 
@@ -55,6 +56,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            // Changes Sprint 2C -- As a system administrator, I want to serve hundreds of users concurrently -- Grace Hrabik
             try
             {
                 return RedirectToAction(nameof(Index));

@@ -8,10 +8,12 @@
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
+            // This a the comment for the User Story 2A branch - Jonny Saldin
         }
 
         public int RoomID
         {
+            // Changes Sprint 2C -- As a system administrator, I want to serve hundreds of users concurrently -- Grace Hrabik
             get;
             private set;
         }
@@ -20,6 +22,7 @@
         {
             get;
             private set;
+            // This is a comment for the User Story 2A branch - Jonny Saldin
         }
 
         public string AuthorName

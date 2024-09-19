@@ -2,8 +2,10 @@
 {
     public class RoomRecord
     {
+        // I am updating this class for User story 1A!
         public RoomRecord(string name, int roomId)
         {
+            // I am updating this RoomRecord method for User story 1A!
             Name = name;
             RoomId1 = roomId;
         }

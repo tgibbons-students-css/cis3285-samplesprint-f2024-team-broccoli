@@ -14,12 +14,16 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
+        // I'm updating this controller for user story 1B
+        // I'm going to update this for the second part of 1B as well
             return View();
         }
 
         // GET: MessageController/Create
         public ActionResult Create()
         {
+            // I'm updating this controller for user story 1B
+            //I'm updating this for the second part of 1B as well
             return View();
         }
 

@@ -4,6 +4,7 @@
     {
         public MessageRecord(int roomID, string authorName, string text)
         {
+            //I'm going to edit this controller in accordance with user story 1B
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -23,6 +24,7 @@
 
         public string AuthorName
         {
+            //I'm going to edit this controller in accordance with user story 1B
             get;
             private set;
         }

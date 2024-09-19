@@ -8,6 +8,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController
         public ActionResult Index()
         {
+            //I'm going to filter this code in accordance with user story 2B
             return View();
         }
 
@@ -19,7 +20,9 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: RoomController/Create
         public ActionResult Create()
+            
         {
+            //I'm going to filter this code in accordance with user story 2B
             return View();
         }
 

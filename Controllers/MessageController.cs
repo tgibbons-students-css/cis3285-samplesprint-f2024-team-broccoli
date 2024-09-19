@@ -16,6 +16,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
         // I'm updating this controller for user story 1B
         // I'm going to update this for the second part of 1B as well!
+        // I'm going to filter this code in accordance with user story 2B
             return View();
         }
 
@@ -24,6 +25,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             // I'm updating this controller for user story 1B
             //I'm updating this for the second part of 1B as well
+            // I'm going to filter this code in accordance with user story 2B
             return View();
         }
 

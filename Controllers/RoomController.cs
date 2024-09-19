@@ -14,14 +14,12 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Details/5
         public ActionResult Details(int id)
         {
-            // I am updating this Details method for User story 1A
             return View();
         }
 
         // GET: RoomController/Create
         public ActionResult Create()
         {
-            // I am updating this Create method for User story 1A
             return View();
         }
 
@@ -65,7 +63,6 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         // GET: RoomController/Delete/5
         public ActionResult Delete(int id)
         {
-            // I am updating this Delete method for User story 1A
             return View();
         }
 

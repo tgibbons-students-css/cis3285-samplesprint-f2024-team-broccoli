@@ -3,6 +3,7 @@
     public class RoomRecord
     {
         // I am updating this class for User story 1A!
+        // This is a comment for User Story 2D - Jonny Saldin
         public RoomRecord(string name, int roomId)
         {
             // I am updating this RoomRecord method for User story 1A!

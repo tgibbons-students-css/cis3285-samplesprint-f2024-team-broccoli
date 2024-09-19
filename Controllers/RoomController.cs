@@ -30,6 +30,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
         {
+            // This is a comment for User Story 2D - Jonny Saldin
             try
             {
                 return RedirectToAction(nameof(Index));
@@ -52,6 +53,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
         {
+            // This is a comment for User Story 2D - Jonny Saldin
             try
             {
                 return RedirectToAction(nameof(Index));
